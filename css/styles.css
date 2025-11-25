@@ -12,8 +12,6 @@
 
     /* star color site */
     --star-color: #E5E5E5;
-
-    --shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* font family */
@@ -88,4 +86,53 @@ ul {
 button {
     padding: 0;
     cursor: pointer;
+}
+
+.section{
+    padding: 25px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 65px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+/* end base styles */
+/* header styles */
+.header{
+    padding: 0;
+    background: var(--light-background-color);
+}
+.nav{
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid var(--gray-background-color);
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-transform: capitalize;
+    color: var(--medium-text-color);
+    font-weight: 400;
+}
+.nav-list-item{
+    transition: color 0.3s ease-in-out;
+}
+.nav-list-item:hover {
+    color: var(--dark-text-color);
+}
+.nav-list-item:active {
+    color: var(--dark-text-color);
+}
+.active{
+    color: var(--dark-text-color);
 }
