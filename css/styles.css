@@ -166,11 +166,9 @@ button {
 /* about styles */
 .about {
     background: var(--medium-background-color);
-    padding: 0;
+    padding: 100px 0;
 }
 .about-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,8 +181,78 @@ button {
     width: 480px;
     text-align: center;
 }
-p:last-child {
+.about-text p:last-child {
     width: 321px;
     margin: 0 auto;
 }
 /* end about styles */
+
+/* skills styles */
+.skills {
+    background: var(--light-background-color);
+    padding: 100px 0;
+}
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.skills-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-list-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 170px;
+    height: 230px;
+    text-align: center;
+}
+.skills-list-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.card-img {
+    width: 80px;
+    height: 80px;
+}
+.card-img-figma {
+    width: 55px;
+    height: 80px;
+}
+.skills-list-card-title {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--medium-text-color);
+    width: 78px;
+    text-align: center;
+}
+.skills-list-card-stars {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: var(--medium-text-color);
+}
+.icon {
+    width: 26px;
+    height: 26px;
+    fill: var(--medium-text-color);
+}
+.active {
+    fill: var(--dark-text-color);
+}
+/* end skills styles */
