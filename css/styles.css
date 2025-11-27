@@ -246,12 +246,12 @@ button {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    color: var(--medium-text-color);
+    color: var(--star-color);
 }
 .icon {
     width: 26px;
     height: 26px;
-    fill: var(--medium-text-color);
+    fill: var(--star-color);
 }
 .active {
     fill: var(--dark-text-color);
