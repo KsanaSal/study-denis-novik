@@ -132,7 +132,10 @@ button {
 }
 .nav-list-item:hover {
     color: var(--dark-text-color);
-    font-weight: 700;
+}
+.nav-list-item a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 .nav-list-item:active {
     color: var(--dark-text-color);
